@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <!-- Linking SwiperJS CSS for our SLIDER -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <ul class="contact-info">
+        <li> <small><ion-icon name="call-outline"></ion-icon> : 0768 786 675</small> </li>
+        <li> <small><ion-icon name="mail-outline"></ion-icon> : wizogeneralenterprises@gmail.com</small> </li>
+        <li> <small><ion-icon name="location-outline"></ion-icon> : Moi Avenue Mombasa</small> </li>
+       
+    </ul>
+<!-----HEADER-->
+<header>
+
+    <div class="navbar">
+        <div class="logo"><a href="#">WEB DEV</a></div>
+        <ul class="links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <a href="contact.html" class="action-btn">Get In Touch</a>
+        <div class="toogle-btn">
+            <img src="images/MenuIcon.png">
+        </div>
+    </div>
+    <div class="dropdown-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        <li><a href="contact.html" class="action-btn">Get In Touch</a></li>
+    </div>
+
+    <script>
+        const toogleBtn = document.querySelector('.toogle-btn')
+        const toogleBtnIcon = document.querySelector('.toogle-btn img')
+        const dropdownMenu = document.querySelector('.dropdown-menu')
+
+        toogleBtn.onclick = function (){
+            dropdownMenu.classList.toggle('open')
+
+        }
+    </script>
+
+</header>
+
+
+<section id="banner" style="height: 75vh;">
+        <div class="banner-text">
+            <h4>WELCOME TO</h4><br>
+            <h2>Our Wide Range of QUALITY Products Where <br><br>GENUINITY IS NEVER A CONCERN!</h2><br><br>
+            <p>Wizo General Enterprises also deals in a wide range of high quality, 
+                pocket friendly <br> products that you need on a daily basis<br>
+            <br>
+             Check all our products below and place an order.
+            <br>
+            </p>
+            <div class="banner-btn" style="margin-top: 30px;">
+                <a href="contact.html">Enquire Now</a>
+            </div>
+        </div>
+       
+    
+</section>
+
+
+
+<section id="service">
+
+    <!-------------START OF SLIDER  (LINKS DOWN)------->
+
+    <div class="container swiper">
+        <div class="slider-wrapper">
+            <div class="card-list swiper-wrapper">
+
+                <div class="card-item swiper-slide">
+                    <img src="images/save-money.png" alt="Icon-Image" class="icon-image">
+                    <h2>Affordable Pricing<h2>
+                    <p class="item-detail">We deliver QUALITY services and Products at a reasonable price.
+                        Get a chance to experience services from the best at discounted prices today.
+                    </p>  
+                </div>
+
+                <div class="card-item swiper-slide">
+                    <img src="images/rate.png" alt="Icon-Image" class="icon-image">
+                    <h2>Customer Satisfaction<h2>
+                    <p class="item-detail">Our customers are our priority. With a well trained and
+                        experienced staff, we are certain that nothing can go wrong.
+                    </p>
+                </div>
+
+                <div class="card-item swiper-slide">
+                    <img src="images/original.png" alt="Icon-Image" class="icon-image">
+                    <h2>Authenticity<h2>
+                    <p class="item-detail">We only deal with authentic products at WIZO General Enterprises
+                        . every product and service is delivered with our customers in mind
+                        TRY US today!
+                    </p>
+                </div>
+
+                <div class="card-item swiper-slide">
+                    <img src="images/save-money.png" alt="Icon-Image" class="icon-image">
+                    <h2>Affordable Pricing<h2>
+                    <p class="item-detail">We deliver QUALITY services and Products at a reasonable price.
+                        Get a chance to experience services from the best at discounted prices today.
+                    </p>  
+                </div>
+
+                <div class="card-item swiper-slide">
+                    <img src="images/rate.png" alt="Icon-Image" class="icon-image">
+                    <h2>Customer Satisfaction<h2>
+                    <p class="item-detail">Our customers are our priority. With a well trained and
+                        experienced staff, we are certain that nothing can go wrong.
+                    </p>
+                </div>
+
+                <div class="card-item swiper-slide">
+                    <img src="images/original.png" alt="Icon-Image" class="icon-image">
+                    <h2>Authenticity<h2>
+                    <p class="item-detail">We only deal with authentic products at WIZO General Enterprises
+                        . every product and service is delivered with our customers in mind
+                        TRY US today!
+                    </p>
+                </div>
+
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-slide-button swiper-button-prev"></div>
+            <div class="swiper-slide-button swiper-button-next"></div>
+        </div>
+  </div>
+<!-------------END OF SLIDER  (LINKS DOWN)------->
+
+
+    <div class="heading">
+        <h3>We also deal with a wide variety of products:</h3>
+    </div>
+
+    <div class="service-box">
+        <div class="gallery">
+            <img src="images/products/soaps and detergents.jpg" alt="">
+            <div class="descn">
+                <h1>SOAP & DETEGENTS</h1> 
+                
+                <p style="color: #fff;">A touch of clean, a world of difference.<br><br>
+                    There is no better smell than the smell of cleanliness. <br><br>Get everything Cleansed, Refreshed & Renewed. <br> <br>
+                    Indulge in pure cleanliness with our products, your daily dose of freshnesh in your homes.
+                        <br><br><br><br>
+                </p>          
+            </div>
+        </div>
+
+
+        <div class="gallery">
+            <img src="images/products/toiletries.jpg" alt="">
+            <div class="descn">
+                <h1>TOILETRIES</h1> 
+                
+                <p style="color: #fff;">Elevate your routine with a touch of elegance everyday. <br><br>
+                    Get all your fovourite toiletries choices at Wizo where Quality for your money is guaranteed,
+                    
+                    with all the products being authentic and from trusted manufacturers countrywide.<br> 
+                    <br>
+                    Simply press the Enquire button and have all your choices delivered.
+                        <br><br><br><br>
+                </p>          
+            </div>
+        </div>
+
+        <div class="gallery">
+            <img src="images/products/learning material.jpg" alt="">
+            <div class="descn">
+                <h1>LEARNING MATERIALS</h1> 
+
+                <p style="color: #fff;">Discover the joy of learning today with comprehensive resources for every learner <br> <br>
+                    Get a wide catalogue to choose from. Empower your child's mind with the best materials with engaging content <br> <br>
+
+                        <br><br><br><br>
+                </p>          
+            </div>
+        </div>
+
+        <div class="gallery">
+            <img src="images/products/office furniture.jpg" alt="">
+            <div class="descn">
+                <h1>OFFICE FURNITURE</h1> 
+                
+                <p style="color: #fff;">Transform your workspace into a haven with not only ergonomic designs for ultimate comfort, 
+                    but also durability and style in mind<br><br>
+                    Enquire for some latest furniture and boost your productivity<br> <br>
+                    Let us take care of you!
+                        <br><br><br><br>
+                </p>          
+            </div>
+        </div>
+
+        <div class="gallery">
+            <img src="images/products/groceries.jpg" alt="">
+            <div class="descn">
+                <h1>GROCERIES</h1> 
+                
+                <p style="color: #fff;">Taste the difference feel the health with our Freshly out of farm groceries. <br><br>
+                    We will deliver wholesome goodness, at the same time help you nourish naturally. <br><br>
+                    No better deal than us surely.
+                        <br><br><br><br>
+                </p>          
+            </div>
+        </div>
+
+        <div class="gallery">
+            <img src="images/products/electrical accessories.jpg" alt="">
+            <div class="descn">
+                <h1>ELECTRICAL ACCESSORIES</h1> 
+                
+                <p style="color: #fff;">Stay connected, Stay charged, Stay ahead! <br><br>
+                    These electronic accessories are designed for the way you live. Talk about your tech personalised.
+                     Compatibility is always in cosideration. <br> <br>
+                     Elevate your digital experience
+
+                        <br><br><br><br>
+                </p>          
+            </div>
+        </div>
+
+        <div class="gallery">
+            <img src="images/products/office stationers.jpg" alt="">
+            <div class="descn">
+                <h1>OFFICE STATIONERS</h1>
+                
+                <p style="color: #fff;">Make your mark with our mark! <br><br>
+                    Boost your productivity. Get quality and affordable supplies, the perfect 
+                    pick-me-up for your desk. <br><br>All your office needs in one place.
+                        <br><br><br><br>
+                </p>          
+            </div>
+        </div>
+
+        <div class="gallery">
+            <img src="images/products/soft drinks.jpg" alt="">
+            <div class="descn">
+                <h1>SOFT DRINKS</h1> 
+       
+                <p style="color: #fff;">Refresh, Recharge ,Repeat! <br><br>
+                    I'll tell you what you get from our soft drinks collection - A thirst-quenching goodness in every sip of a cold drink. <br><br>
+                    We have a wide range to choose from. <br>
+                    Shop with us and get a burst of flavour in every bottle.
+                        <br><br><br><br>
+                </p>          
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<section id="footer">
+
+    <div class="copyright">
+            <p>&copy; 2024 WIZO general enterprises. All Rights Reserved.</p>
+    </div>
+</section>
+
+
+
+<!-- Linking SwiperJS script -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    
+<!-- Linking Ion icons-->
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+<!-- Linking custom script -->
+<script src="script.js"></script>
+</body>
+</html>
